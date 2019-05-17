@@ -1,0 +1,170 @@
+/** HIDE MENU **/
+@media only screen and (max-width : 768px) {
+	header .main-menu
+	{
+		display: none;
+	}
+	.mobile
+	{
+		display: table; 
+		padding: 25px;
+        }
+	header .logo
+	{
+		margin: 5px auto !important;
+	}
+	img
+	{
+		width:100%; 
+		height:auto;
+	}
+	#sigin-button
+	{
+		float: right;
+		margin: 5px;
+	}
+	#slideshow .service-post-content
+	{
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width : 1280px) {
+	header .main-menu
+	{
+		margin-right: -90px;
+	}
+	header .logo
+	{
+		margin-left: -90px;
+	}
+	img	
+}
+@media only screen and (max-width : 800px) {
+
+	img
+	{
+		width: 100%;
+		height: auto;
+	}
+	
+	header .main-menu
+	{
+		margin-right: -70px;
+	}
+	header .logo
+	{
+		margin-left: 5px;
+		margin-top: 25px;
+	}
+	header .logo img
+	{
+		width: 203px;
+	}
+
+}
+@media only screen and (max-width: 1024px){
+
+	.blue-section .next h2 
+	{
+    	text-align: left;
+	}
+	.blue-section .one-half
+	{
+		width: 42%;
+	}
+	.blue-section li
+	{
+		margin-bottom: 15px;
+	}
+	.service-post.one-third 
+	{
+		width: 48%;
+		padding: 0px;
+	}
+	#slideshow .service-post.one-third 
+	{
+    	width: 25%;
+	}
+	.content-section .container
+	{
+		width: 100%;
+	}	
+	.detail_box #number
+	{
+		font-size: 40px;
+		vertical-align: baseline;
+	}
+}
+@media only screen and (max-width:  360px){
+
+	.blue-section .one-half
+	{
+		width: 45%;
+	}
+	.blue-section ul li
+	{
+		font-size: 12px;
+	}	
+	h2
+	{
+		font-size: 20px;
+	}
+	#wpcf7-f882-o1 input[type="text"],
+	#wpcf7-f882-o1 input[type="email"],
+	#wpcf7-f882-o1 select 
+	{ width: 50%; }
+	#wpcf7-f882-o1 textarea
+	{
+		width: 80%;
+	}
+	.service-post.one-third 
+	{
+		width: 100%;
+	}
+	.service-post-content
+	{
+		text-align: left;
+	}
+
+}
+@media only screen and (max-width:  1080px){
+
+	#wpcf7-f882-o1 .one-half
+	{
+		width: 100%;
+	}
+	.form-fields
+	{
+    	text-align: left;
+	}
+}
+@media only screen and (max-width:  500px){
+
+	#list_services
+	{ display: block;}
+	#slideshow
+	{
+		display: none;
+	}
+}
+@media only screen and (max-width:  480px){
+
+	.one-third
+	{
+		width: 100%
+	}	
+	.quarter
+	{
+		width: 50%;
+	}
+	.next h2 
+	{
+    	text-align: left;
+	}
+	#wpcf7-f882-o1 label 
+	{	    
+	    width: 50px;
+	    vertical-align: top;
+	}
+}
